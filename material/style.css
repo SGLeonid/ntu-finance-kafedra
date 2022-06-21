@@ -1,0 +1,86 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Manrope", sans-serif;
+	font-size: 18px;
+}
+
+header {
+	background: #ffffff;
+	padding: 15px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li {
+	display: block;
+	
+}
+
+button {
+	background: #DDEBF7;
+	border: 0;
+	padding: 15px 50px;
+	font-size: 18px;
+	cursor:pointer;
+}
+
+button:hover {
+	background: #000000;	
+	color: #ffffff;
+}
+
+.header a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.container {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li {
+	margin-right: 50px;
+}
+
+.langs {
+	display: flex;
+	margin-left: auto;
+}
+
+.langs li {
+	margin-right: 20px;
+}
+
+.contents {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.contents p {
+	font-size: 32px;
+	letter-spacing: 10px;
+}
+
+.contents li {
+	padding: 0;
+}
+
+.footerinfo {
+	margin: 50px 0px;
+	text-align: center;
+}
