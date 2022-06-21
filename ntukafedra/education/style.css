@@ -55,12 +55,13 @@ ul, li {
 	margin: 0 auto;
 }
 
-.container h1 {
-	text-align: center;
-}
-
 .container li{
 	display: list-item;
+}
+
+.container h1 {
+	text-align: center;
+	padding-top: 25px;
 }
 
 .nav {
@@ -167,24 +168,16 @@ ul, li {
 	justify-content: space-between;
 }
 
-.tutorrec {
+.photoblock {
+	align-items: center;
 	display: flex;
-	padding: 50px 0;
+	flex-direction: column;
 }
 
-.photo img {
-	width: 250px;
+.photoblock img {
+	width: 750px;
 }
 
-.maininfo {
-	margin: 0 50px;
-	margin-right: auto;
-}
-
-.maininfo h1 {
-	text-align: left;
-}
-
-.maininfo li {
-	display: list-item;
+.eduinfo {
+	margin: 50px 0;
 }
