@@ -157,3 +157,13 @@ ul, li {
 	display: flex;
 	justify-content: space-between;
 }
+
+.photoblock {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.photoblock img {
+	width: 750px;
+}
