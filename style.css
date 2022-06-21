@@ -48,6 +48,10 @@ button:hover {
 	color: #ffffff;
 }
 
+button:focus {
+	outline: none;
+}
+
 input {
 	border: 0;
 	border-bottom: #000000;
@@ -220,6 +224,22 @@ textarea:focus {
 	justify-content: space-between;
 }
 
+.header .showmenu {
+	display: block;
+	position: absolute;
+	background: #ffffff;
+	width: 100%;
+	left: 0;
+	top: 85px;
+	margin-top: 0;
+	padding-left: 0;
+}
+
+.showmenu li {
+	padding: 25px 0;
+	padding-left: 50px;
+}
+
 @media screen and (min-width: 1200px) {
 	.container {
 		width: 1150px;
@@ -235,6 +255,10 @@ textarea:focus {
 
 	.menu {
 		display: flex;
+	}
+
+	.menuopen {
+		display: none;
 	}
 }
 
@@ -255,7 +279,16 @@ textarea:focus {
 		display: none;
 	}
 
+	.menuopen {
+		margin-left: auto;
+	}
 
+	.menuopen button{
+		background: #ffffff;
+		border: none;
+		display: block;
+		padding: 0;
+	}
 } 
 
 @media screen and (min-width: 320px) and (max-width: 767px)
@@ -313,5 +346,16 @@ textarea:focus {
 	input, textarea {
 		width: 240px;
 		margin-right: 0;
+	}
+
+	.menuopen {
+		margin-left: auto;
+	}
+
+	.menuopen button{
+		background: #ffffff;
+		border: none;
+		display: block;
+		padding: 0;
 	}
 }

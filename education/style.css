@@ -35,6 +35,23 @@ ul, li {
 	
 }
 
+button {
+	background: #DDEBF7;
+	border: 0;
+	padding: 15px 50px;
+	font-size: 18px;
+	cursor:pointer;
+}
+
+button:hover {
+	background: #000000;	
+	color: #ffffff;
+}
+
+button:focus {
+	outline: none;
+}
+
 .formbtn {
 	background: #000000;
 	color: #ffffff;
@@ -182,6 +199,22 @@ ul, li {
 	margin: 50px 0;
 }
 
+.header .showmenu {
+	display: block;
+	position: absolute;
+	background: #ffffff;
+	width: 100%;
+	left: 0;
+	top: 85px;
+	margin-top: 0;
+	padding-left: 0;
+}
+
+.showmenu li {
+	padding: 25px 0;
+	padding-left: 50px;
+}
+
 @media screen and (min-width: 1200px) {
 	.container {
 		width: 1150px;
@@ -197,6 +230,10 @@ ul, li {
 
 	.menu {
 		display: flex;
+	}
+
+	.menuopen {
+		display: none;
 	}
 }
 
@@ -217,7 +254,16 @@ ul, li {
 		display: none;
 	}
 
+	.menuopen {
+		margin-left: auto;
+	}
 
+	.menuopen button{
+		background: #ffffff;
+		border: none;
+		display: block;
+		padding: 0;
+	}
 } 
 
 @media screen and (min-width: 320px) and (max-width: 767px)
@@ -283,6 +329,17 @@ ul, li {
 
 	.eduinfo h1 {
 		font-size: 18px;
+	}
+
+	.menuopen {
+		margin-left: auto;
+	}
+
+	.menuopen button{
+		background: #ffffff;
+		border: none;
+		display: block;
+		padding: 0;
 	}
 }
 
